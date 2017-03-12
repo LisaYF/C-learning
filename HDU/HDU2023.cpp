@@ -2,6 +2,7 @@
 int main() {
 	int n = 0, m = 0;
 	int a[60][10];
+	freopen("2023.in","r",stdin);
 	while (~scanf("%d%d", &n, &m)) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
